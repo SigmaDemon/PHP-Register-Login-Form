@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(rgba(120, 120, 128, 0.5), rgba(0, 0, 50, 0.5)), url(welcome.gif);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+.login-box {
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+}
+
+.login-left {
+    background: rgba(211, 211, 211, 0.5);
+    padding: 30px;
+}
+
+.login-right {
+    background-color: #fff;
+    padding: 30px;
+}
+
+.form-control {
+    background-color: transparent !important;
+}
+
+a{
+    color: white !important;
+    margin-top: -200px !important;
+}
+
+h1 {
+    color: white;
+    margin-top: 200px !important;
+    text-align: center;
+    text-transform: uppercase;
+}
